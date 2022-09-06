@@ -1,11 +1,13 @@
-﻿namespace Builder.Build
+﻿using Builder.Products;
+
+namespace Builder.Build
 {
     public class MediaSocialTwitterBuilder : MediaSocialBuilder
     {
 
         public MediaSocialTwitterBuilder()
         {
-            _mediaSocial = new Products.MediaSocial("Twitter");
+            _mediaSocial = new MediaSocial("Twitter");
         }
         public override void BuildPost()
         {
