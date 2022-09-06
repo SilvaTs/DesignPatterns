@@ -7,12 +7,6 @@
         {
             _mediaSocial = new Products.MediaSocial("Twitter");
         }
-
-        public override void BuildLike()
-        {
-            _mediaSocial.Like("publication Apple");
-        }
-
         public override void BuildPost()
         {
             _mediaSocial.Post(
@@ -20,5 +14,10 @@
                               body: "my first post on Twitter"
                               );
         }
+
+        public override void BuildLike()
+        {
+            _mediaSocial.Like("publication Apple");
+        }        
     }
 }

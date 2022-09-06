@@ -14,11 +14,6 @@ namespace Builder.Build
             _mediaSocial = new MediaSocial("Facebook");
         }
 
-        public override void BuildLike()
-        {
-            _mediaSocial.Like("publication Microsoft");
-        }
-
         public override void BuildPost()
         {
             _mediaSocial.Post(
@@ -26,5 +21,10 @@ namespace Builder.Build
                              body: "my first post on Facebook"
                              );
         }
+
+        public override void BuildLike()
+        {
+            _mediaSocial.Like("publication Microsoft");
+        }        
     }
 }
