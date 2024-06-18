@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{F1C05DC9-B98D-46A8-9CFA-9F0514E4AED0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{F1C05DC9-B98D-46A8-9CFA-9F0514E4AED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{42CB52AB-D3E9-4930-8AAC-CD184F80D356}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F1C05DC9-B98D-46A8-9CFA-9F0514E4AED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1C05DC9-B98D-46A8-9CFA-9F0514E4AED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1C05DC9-B98D-46A8-9CFA-9F0514E4AED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42CB52AB-D3E9-4930-8AAC-CD184F80D356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42CB52AB-D3E9-4930-8AAC-CD184F80D356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42CB52AB-D3E9-4930-8AAC-CD184F80D356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42CB52AB-D3E9-4930-8AAC-CD184F80D356}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

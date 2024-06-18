@@ -12,14 +12,14 @@ namespace Builder.Products
 
         public void Post(string title, string body)
         { 
-          Console.Write(this._nameSocialNetwork);
-          Console.Write(title);
-          Console.Write(body);
+          Console.WriteLine(this._nameSocialNetwork);
+          Console.WriteLine(title);
+          Console.WriteLine(body);
         }
 
         public void Like(string publication)
         {
-            Console.Write($"{publication} was liked {this._nameSocialNetwork}");
+            Console.WriteLine($"{publication} was liked {this._nameSocialNetwork}");
         }
     }
 }
