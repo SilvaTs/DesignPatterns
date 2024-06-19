@@ -6,12 +6,13 @@ namespace Facade
     {
         public void SearchVerganaNormal()
         {
-            throw new NotImplementedException();
+            GetNonVerganaCoverage();
+            Console.WriteLine("Buscando a Pizza Normal.");
         }
 
         public void SearchVerganaPizza()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Buscando a Pizza Vergana.");
         }
 
         private void GetNonVerganaCoverage()
